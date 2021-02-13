@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'MADESoulmaze';
+    src: url('./fonts/MADESoulmaze.eot');
+    src: url('./fonts/MADESoulmaze.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/MADESoulmaze.svg#MADESoulmaze') format('svg'),
+         url('./fonts/MADESoulmaze.ttf') format('truetype'),
+         url('./fonts/MADESoulmaze.woff') format('woff'),
+         url('./fonts/MADESoulmaze.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+   }  
+
+h3, a{
+      font-family: 'MADESoulmaze', sans-serif;
+      text-decoration: none;
+}
+
+
+h3{ 
+    font-style: italic;
+    font-weight: 599;
+    color: crimson;
+    transition: all 200ms;
+}
+h3:hover{
+    color: white;
+    background-color: crimson;
+}
+
+.container, nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    list-style-type: none;
+}
+.nav-ul li a{
+    padding: 1px 5px;
+    color: black;
+}
+/*Navbar and Logo*/
+.nav-ul li a:hover{ 
+    color: white;
+    background-color: rgb(7, 6, 6);
+}
+nav .nav-ul > li > ul{
+    display: none;
+    position: absolute;
+    list-style:none;
+    z-index: 1;
+}
+nav .nav-ul > li:hover > ul{
+    display: block;
+}
+nav .nav-ul > li:hover > ul > li{
+    padding: 8px;
+    text-align: justify;
+    line-height: 5px;
+    transition: all 200ms;
+}
+
+#music:hover{
+    background-color:yellow;
+}
+#social:hover{
+    background-color:#45A1FF;
+}
+#hustle:hover{
+    background-color: green;
+}
+#trends:hover{
+    background-color: tomato;
+}
+#wellness:hover{
+    background-color: cyan;
+}
+#fitness:hover{
+    background-color: springgreen;
+}
+#steam:hover{
+    background-color: teal;
+}
+#singularity:hover{
+    background-color: orange;
+}
+#swag:hover{
+    background-color: salmon;
+}
+#sneakers:hover{
+    background-color: crimson;
+}
+
+#gaming:hover{
+    background-color: darkmagenta;
+}
+#showtime:hover{
+    background-color: red;}
+
+button {
+    font-family: 'MADESoulmaze';
+    background-color: crimson;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+/*End Navbar and Logo */
+/*Mobile Nav*/
+
+.menu{
+    padding: 0 15px;
+}
+.menu button{
+    padding: 4px;
+    background: black;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: cadetblue;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay-content{
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1.1fr;
+}
+.overlay a{
+    padding: 4px;
+    font-size: 26px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+.overlay a:hover, .overlay a:focus {
+    color: white;
+    background-color: black;
+}
+.overlay > .close:hover{
+    background: none;
+}
+
+.overlay .close {
+    position: absolute;
+    right: 15px;
+    top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px){
+  .container{
+      width: 100%;
+      margin: 0 auto;
+      justify-content: space-between;
+  }
+  .nav-ul{
+      display: none;
+  }
+  
+  .overlay-content{
+    grid-template-columns: 1fr 1fr;
+  }
+  .overlay a{
+      font-size: 18px;
+  }
+
+}
+ 
