@@ -135,6 +135,9 @@ button:hover{
     padding: 4px;
     background: black;
 }
+.menu button:focus{
+    outline: 0;
+}
 
 .overlay {
     height: 100%;
