@@ -24,8 +24,6 @@ h3, a{
       text-decoration: none;
 }
 
-a:focus,button:focus,input:focus,textarea:focus {outline: none;}
-
 h3{ 
     font-style: italic;
     font-weight: 599;
@@ -135,9 +133,6 @@ button:hover{
     padding: 4px;
     background: black;
 }
-.menu button:focus{
-    outline: 0;
-}
 
 .overlay {
     height: 100%;
@@ -183,10 +178,6 @@ button:hover{
       width: 100%;
       margin: 0 auto;
       justify-content: space-between;
-      -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
   }
   .nav-ul{
       display: none;
@@ -197,14 +188,6 @@ button:hover{
   }
   .overlay a{
       font-size: 18px;
-      outline: 0;
-      -webkit-appearance: button;
-      justify-content: space-between;
-      -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-      
   }
 
 }
