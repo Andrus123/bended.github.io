@@ -197,6 +197,14 @@ button:hover{
   }
   .overlay a{
       font-size: 18px;
+      outline: 0;
+      -webkit-appearance: button;
+      justify-content: space-between;
+      -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+      
   }
 
 }
