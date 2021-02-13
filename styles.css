@@ -13,8 +13,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline:none;
-    user-select:none;
 }
 html {
     margin-left: calc(100vw - 100%);
