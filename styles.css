@@ -134,6 +134,7 @@ button:hover{
 .menu button{
     padding: 4px;
     background: black;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 .menu button:focus{
     outline: 0 !important;
@@ -173,6 +174,7 @@ button:hover{
 }
 .overlay > .close:hover{
     background: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 .overlay .close {
@@ -198,6 +200,7 @@ button:hover{
   }
   .overlay a{
       font-size: 18px;
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
 
 }
