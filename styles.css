@@ -117,11 +117,13 @@ button {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    -webkit-tap-highlight-color: transparent; 
 }
 
 button:hover{
     background-color: black;
     color: white;
+    -webkit-tap-highlight-color: transparent; 
 }
 /*End Navbar and Logo */
 /*Mobile Nav*/
@@ -135,9 +137,11 @@ button:hover{
 }
 .menu button:focus{
     outline: 0 !important;
+    -webkit-tap-highlight-color: transparent; 
 }
 .menu button:hover{
     outline: 0 !important;
+    -webkit-tap-highlight-color: transparent; 
 }
 
 .overlay {
