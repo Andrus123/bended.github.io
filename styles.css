@@ -125,6 +125,10 @@ button:hover{
     background-color: black;
     color: white;
 }
+button:focus{
+    outline:none;
+}
+
 /*End Navbar and Logo */
 /*Mobile Nav*/
 
