@@ -36,6 +36,10 @@ h3:hover{
     color: white;
     background-color: crimson;
 }
+h3:focus{
+    outline:none;
+}
+
 
 .container, nav{
     display: flex;
