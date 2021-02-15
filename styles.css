@@ -14,6 +14,7 @@
     margin: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
+    outline:0;
 }
 html {
     margin-left: calc(100vw - 100%);
@@ -118,13 +119,11 @@ button {
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    -webkit-tap-highlight-color: transparent; 
 }
 
 button:hover{
     background-color: black;
     color: white;
-    -webkit-tap-highlight-color: transparent; 
 }
 /*End Navbar and Logo */
 /*Mobile Nav*/
@@ -135,20 +134,6 @@ button:hover{
 .menu button{
     padding: 4px;
     background: black;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    cursor:pointer;
-}
-.menu button:focus{
-    outline: 0 !important;
-    -webkit-tap-highlight-color: transparent; 
-}
-.menu button:hover{
-    outline: 0 !important;
-    -webkit-tap-highlight-color: transparent; 
-}
-
-.menu a{
--webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 .overlay {
@@ -180,7 +165,6 @@ button:hover{
 }
 .overlay > .close:hover{
     background: none;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 .overlay .close {
@@ -191,9 +175,6 @@ button:hover{
     cursor: pointer;
 }
 
-@media (any-hover: none) {
-*{cursor:none!important}
-}
 
 @media screen and (max-width: 375px){
   .container{
