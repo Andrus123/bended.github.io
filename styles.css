@@ -32,7 +32,6 @@ h3{
     color: crimson;
     transition: all 200ms;
     padding: 1px 3px 0 1px;
-    margin: -1px;
 }
 h3:hover{
     color: white;
