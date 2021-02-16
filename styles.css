@@ -142,8 +142,7 @@ button:focus{
 }
 .menu button{
     margin-top: -14px;
-    position: fixed;
-    padding: 10px 8px;
+    padding: 12px 5px;
     background: black;
     z-index: 2;
 }
