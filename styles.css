@@ -145,6 +145,7 @@ button:focus{
     padding: 12px 5px;
     background: black;
     z-index: 2;
+    
 }
 
 .overlay {
