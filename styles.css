@@ -141,7 +141,8 @@ button:focus{
     padding: 0 15px;
 }
 .menu button{
-    padding: 5px;
+    padding: 4px;
+    padding-top: 4px;
     background: black;
 }
 
