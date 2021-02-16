@@ -141,9 +141,11 @@ button:focus{
     padding: 0 15px;
 }
 .menu button{
-    padding: 4px;
-    padding-top: 4px;
+    margin-top: -13px;
+    position: fixed;
+    padding: 10px 8px;
     background: black;
+    z-index: 2;
 }
 
 .overlay {
