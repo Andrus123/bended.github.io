@@ -164,13 +164,14 @@ button:focus{
     background-color: black;
     z-index: 1;
 }
+.spotcontainer .spotlight p{
+    display: ruby;
+}
 .spotcontainer .spotlight{
     font-family: 'NeuzitGrotesque';
     animation: spot 15s linear infinite;
 }
-.spotcontainer .spotlight p{
-    display: ruby-text;
-}
+
 @keyframes spot{
     0%   { transform: translate(100%, 0); }
     100% { transform: translate(-100%, 0); }
