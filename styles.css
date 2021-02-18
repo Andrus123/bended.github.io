@@ -165,7 +165,7 @@ button:focus{
     z-index: 1;
 }
 .spotcontainer .spotlight p{
-    display: none;
+    display: ruby;
 }
 .spotcontainer .spotlight{
     font-family: 'NeuzitGrotesque';
