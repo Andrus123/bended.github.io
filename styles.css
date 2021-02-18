@@ -164,7 +164,7 @@ button:focus{
     background-color: black;
     z-index: 1;
 }
-.spotcontainer .spotlight p{
+.spotcontainer > .spotlight > p{
     display: ruby;
 }
 .spotcontainer .spotlight{
