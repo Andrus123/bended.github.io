@@ -169,7 +169,7 @@ button:focus{
     animation: spot 15s linear infinite;
 }
 .spotcontainer .spotlight p{
-    display: block-ruby;
+    display: ruby-text;
 }
 @keyframes spot{
     0%   { transform: translate(100%, 0); }
