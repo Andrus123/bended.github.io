@@ -8,7 +8,18 @@
          url('./fonts/MADESoulmaze.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }  
+  }
+@font-face{
+    font-family: 'NeuzitGrotesque';
+    src: url('./fonts/NeuzeitGro-Reg.eot');
+    src: url('./fonts/NeuzeitGro-Reg.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/NeuzeitGro-Reg.svg#NeuzitGrotesque') format('svg'),
+         url('./fonts/NeuzeitGro-Reg.ttf') format('truetype'),
+         url('./fonts/NeuzeitGro-Reg.woff') format('woff'),
+         url('./fonts/NeuzeitGro-Reg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}  
 *{
     padding: 0;
     margin: 0;
@@ -20,7 +31,6 @@
 html {
     margin-left: calc(100vw - 100%);
     margin-right: 0;
-    overflow-x: hidden;
    }  
 
 h3, a{
@@ -59,7 +69,7 @@ h3:focus{
     list-style-type: none;
 }
 .nav-ul li a{
-    padding: 1px 5px;
+    padding: 2px 5px;
     color: black;
 }
 /*Navbar and Logo*/
@@ -137,29 +147,34 @@ button:focus{
 }
 
 /*spotlight animated*/
-.spotlight{
-    background: tomato;
-}
-.spotlight p{
-    font-family: 'Courier New', Courier, monospace;
+.spotcontainer{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    line-height: 20px;
+    background-color: tomato;
     color: white;
-    overflow-y: hidden;
+    overflow: hidden;
+    box-sizing: border-box;
 }
-.spotlight p{
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-name: ticker;
-    animation-duration: 20s;
+.spotcontainer .title{
+    font-family: 'MADESoulmaze';
+    font-size: 12px;
+    padding-right: 5px;
+    background-color: black;
+    z-index: 1;
 }
-@keyframes ticker{
-    0%{
-        transform: translate3d(100%, 0, 0);
-    }
-    100%{
-        transform: translate3d(-100%, 0, 0);
-    }
+.spotcontainer .spotlight{
+    font-family: 'NeuzitGrotesque';
+    animation: spot 15s linear infinite;
 }
-
+.spotcontainer .spotlight p{
+    display: ruby-base;
+}
+@keyframes spot{
+    0%   { transform: translate(100%, 0); }
+    100% { transform: translate(-100%, 0); }
+}
 /*spotlight animated*/
 
 /*End Navbar and Logo */
@@ -169,9 +184,12 @@ button:focus{
     padding: 0 15px;
 }
 .menu button{
-    padding: 4px;
+    padding: 14px 6px;
     background: black;
-    
+    z-index: 3;
+    position: absolute;
+    right: 13px;
+    top: -1px;
 }
 
 .overlay {
