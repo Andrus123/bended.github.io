@@ -164,6 +164,13 @@ button:focus{
     background-color: black;
     z-index: 1;
 }
+.spotcontainer .news{
+    font-family: 'MADESoulmaze';
+    text-transform: uppercase;
+    font-style: italic;
+    color: black;
+}
+
 .spotcontainer .spotlight p{
     white-space: nowrap;
 }
@@ -171,7 +178,9 @@ button:focus{
     font-family: 'NeuzitGrotesque';
     animation: spot 25s linear infinite;
 }
-
+.spotcontainer .whitespace{
+    color: transparent;
+}
 @keyframes spot{
     0%   { transform: translate(170%, 0); }
     100% { transform: translate(-100%, 0); }
