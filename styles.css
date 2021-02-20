@@ -173,7 +173,7 @@ button:focus{
 }
 
 @keyframes spot{
-    0%   { transform: translate(100%, 0); }
+    0%   { transform: translate(170%, 0); }
     100% { transform: translate(-100%, 0); }
 }
 /*spotlight animated*/
