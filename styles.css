@@ -169,7 +169,7 @@ button:focus{
 }
 .spotcontainer .spotlight{
     font-family: 'NeuzitGrotesque';
-    animation: spot 15s linear infinite;
+    animation: spot 25s linear infinite;
 }
 
 @keyframes spot{
