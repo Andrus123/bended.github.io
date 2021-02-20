@@ -43,7 +43,7 @@ h3{
     font-weight: 599;
     color: crimson;
     transition: all 200ms;
-    padding: 1px 3px 0 1px;
+    padding: 1px 5px 0 2.75px;
 }
 h3:hover{
     color: white;
@@ -163,6 +163,8 @@ button:focus{
     padding-right: 5px;
     background-color: black;
     z-index: 1;
+    cursor:pointer;
+    padding-left:2px;
 }
 .spotcontainer .news{
     font-family: 'MADESoulmaze';
