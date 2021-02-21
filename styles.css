@@ -33,11 +33,12 @@ html {
     margin-right: 0;
    }  
 
+   /*Navbar and Logo*/
 h3, a{
       font-family: 'MADESoulmaze', sans-serif;
       text-decoration: none;
 }
-
+/*Logo*/
 h3{ 
     font-style: italic;
     font-weight: 599;
@@ -52,7 +53,9 @@ h3:hover{
 h3:focus{
     outline:none;
 }
+/*Logo*/
 
+/*Navbar and Logo*/
 
 .container, nav{
     display: flex;
@@ -145,6 +148,7 @@ button:hover{
 button:focus{
     outline:none;
 }
+/*Navbar and Logo*/
 
 /*spotlight animated*/
 .spotcontainer{
@@ -195,6 +199,7 @@ button:focus{
 /*spotlight animated*/
 
 /*End Navbar and Logo */
+
 /*Mobile Nav*/
 
 .menu{
@@ -247,8 +252,17 @@ button:focus{
     font-size: 40px;
     cursor: pointer;
 }
+/*Mobile Nav*/
 
+/*Hero Section*/
+.herobox{
+    width: 100%;
+    background: skyblue;
+    height: 100px;
+}
+/*Hero Section*/
 
+/*Responsive Design*/
 @media screen and (max-width: 375px){
   .container{
       width: 100%;
@@ -266,6 +280,5 @@ button:focus{
       font-size: 18px;
       -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
-
 }
- 
+/*Responsive Design*/
