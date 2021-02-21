@@ -152,7 +152,7 @@ button:focus{
     height: 20px;
     width: 100%;
     line-height: 20px;
-    background-color: tomato;
+    background-color: seagreen;
     color: white;
     overflow: hidden;
     box-sizing: border-box;
@@ -183,7 +183,7 @@ button:focus{
 }
 .spotcontainer .spotlight{
     font-family: 'NeuzitGrotesque';
-    animation: spot 25s linear infinite;
+    animation: spot 60s linear infinite;
 }
 .spotcontainer .whitespace{
     color: transparent;
