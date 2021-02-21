@@ -189,7 +189,7 @@ button:focus{
     color: transparent;
 }
 @keyframes spot{
-    0%   { transform: translate(170%, 0); }
+    0%   { transform: translate(100%, 0); }
     100% { transform: translate(-100%, 0); }
 }
 /*spotlight animated*/
