@@ -172,6 +172,11 @@ button:focus{
     font-style: italic;
     color: black;
 }
+.spotcontainer .sportsmini{
+    font-family: 'MADESoulmaze';
+    font-style: italic;
+    color: white;
+}
 
 .spotcontainer .spotlight p{
     white-space: nowrap;
