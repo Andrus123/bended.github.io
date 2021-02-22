@@ -266,12 +266,22 @@ button:focus{
 .cardsections{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: red;
     height: 50vh;
 }
-
-
-
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 500px;
+}
+.cards .cardbox{
+    background-color: turquoise;
+    margin: 20px;
+    width: 100px;
+}
 /*Cards Section*/
 
 /*Responsive Design*/
