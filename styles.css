@@ -266,7 +266,12 @@ button:focus{
 .cardsections{
     width: 100%;
     display: flex;
+    background-color: red;
+    height: 50vh;
 }
+
+
+
 /*Cards Section*/
 
 /*Responsive Design*/
