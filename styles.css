@@ -274,13 +274,15 @@ button:focus{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    flex-flow: row wrap;
     background-color: white;
-    width: 500px;
+    width: 900px;
 }
 .cards .cardbox{
     background-color: turquoise;
-    margin: 20px;
-    width: 100px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
 }
 /*Cards Section*/
 
