@@ -150,7 +150,7 @@ button:focus{
 }
 /*Navbar and Logo*/
 
-/*spotlight animated*/
+/*Spotlight animated*/
 .spotcontainer{
     display: flex;
     height: 20px;
@@ -196,7 +196,7 @@ button:focus{
     0%   { transform: translate(100%, 0); }
     100% { transform: translate(-100%, 0); }
 }
-/*spotlight animated*/
+/*Spotlight animated*/
 
 /*End Navbar and Logo */
 
@@ -261,6 +261,13 @@ button:focus{
     height: 100px;
 }
 /*Hero Section*/
+
+/*Cards Section*/
+.cardsections{
+    width: 100%;
+    display: flex;
+}
+/*Cards Section*/
 
 /*Responsive Design*/
 @media screen and (max-width: 375px){
