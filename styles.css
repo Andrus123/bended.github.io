@@ -287,9 +287,10 @@ button:focus{
 /*Cards Section*/
 /*Lateral Section*/
 .asidebox{
+    height: 200px;
     display: flex;
     width: 20%;
-    background-color: rosybrown;
+    background-color: coral;
 }
 
 /*Lateral Section*/
