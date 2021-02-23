@@ -285,6 +285,14 @@ button:focus{
     width: 200px;
 }
 /*Cards Section*/
+/*Lateral Section*/
+.asidebox{
+    display: flex;
+    width: 20%;
+    background-color: rosybrown;
+}
+
+/*Lateral Section*/
 
 /*Responsive Design*/
 @media screen and (max-width: 375px){
