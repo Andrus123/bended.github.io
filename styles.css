@@ -279,10 +279,12 @@ button:focus{
     width: 900px;
 }
 .cards .cardbox{
-    background-color: turquoise;
+    background-color: white;
     margin: 10px;
     height: 200px;
     width: 200px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1.5px rgb(246, 115, 115);
 }
 /*Cards Section*/
 /*Lateral Section*/
