@@ -281,6 +281,10 @@ button:focus{
     background-color: white;
     width: 900px;
 }
+.cards article{
+    font-family: 'NeuzitGrotesque';
+    padding: 10px;
+}
 .cards .cardbox{
     background-color: white;
     margin: 10px;
