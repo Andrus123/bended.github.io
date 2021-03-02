@@ -260,6 +260,9 @@ button:focus{
     background: skyblue;
     height: 100px;
 }
+.herobox .hero img{
+    width:200px;
+}
 /*Hero Section*/
 
 /*Cards Section*/
