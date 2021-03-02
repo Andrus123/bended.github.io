@@ -284,7 +284,12 @@ button:focus{
     height: 200px;
     width: 200px;
     border-radius: 3px;
-    box-shadow: 0px 0px 1px 1.5px rgb(246, 115, 115);
+    box-shadow: 1px 1px 1px rgb(163, 161, 161), 1px 1px 5px wheat;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+.cards .cardbox:hover{
+    transform: translate(-2px, -2px);
 }
 /*Cards Section*/
 /*Lateral Section*/
