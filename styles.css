@@ -259,6 +259,7 @@ button:focus{
     width: 100%;
     background: skyblue;
     height: 100px;
+    background-image:url(./images/beeple-07-21-20.jpg);
 }
 .herobox .hero img{
     width:200px;
