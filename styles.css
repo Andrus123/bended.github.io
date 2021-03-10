@@ -267,6 +267,14 @@ button:focus{
     background-size: cover;
     top:-400px;
 }
+.herobox .hero h2{
+    position: relative;
+    z-index: 1;
+    font-family: 'MADESoulmaze';
+    color: white;
+    top: 25px;
+    left: 25px;
+}
 
 /*Hero Section*/
 
