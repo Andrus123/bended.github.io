@@ -305,7 +305,14 @@ button:focus{
 }
 /*Cards Section*/
 /*Lateral Section*/
-
+    .asidebox{
+        width: 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #45A1FF;
+        height: 200px;
+        justify-content: end;
+    }
 
 /*Lateral Section*/
 
@@ -329,7 +336,7 @@ button:focus{
   }
 
   .herobox .hero img{
-      top: -40px;
+      top: -60px;
   }
 }
 /*Responsive Design*/
