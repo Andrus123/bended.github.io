@@ -267,6 +267,7 @@ button:focus{
     background-size: cover;
     top:-400px;
 }
+
 .herobox .hero h2{
     position: relative;
     z-index: 1;
@@ -275,7 +276,6 @@ button:focus{
     top: 25px;
     left: 20px;
 }
-
 /*Hero Section*/
 
 /*Cards Section*/
